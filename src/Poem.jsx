@@ -26,7 +26,7 @@ function Poem() {
 
     return (
         <div className="poem-container">
-             <button onClick={() => fetchPoem()}>Find out</button>
+             { !revealPoem ? <button onClick={() => fetchPoem()}>Find out</button> : <div></div>}
 
             {loading && <p>Loading your poetic essence...</p>}
 
