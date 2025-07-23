@@ -1,0 +1,25 @@
+div {
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: orchid;
+}
+
+.poem-container {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+  }
+  
