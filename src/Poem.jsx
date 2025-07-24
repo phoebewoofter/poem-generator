@@ -7,7 +7,6 @@ function Poem() {
     const [revealPoem, setRevealPoem] = useState(false);
 
     const fetchPoem = async () => {
-        console.log("Fetching...");
         setLoading(true);
         try {
             const response = await fetch('https://poetrydb.org/author,poemcount/Dickinson;30');
