@@ -1,10 +1,10 @@
 import Poem from './Poem.jsx'
-import BotanicalDrift from './BotanicalDrift.jsx'
 import './App.css'
 
 function App() {
 
   return (
+    
     <div className="all">
       <div className="body">
         <h1 className="title">Which Emily Dickinson poem are you?</h1>
