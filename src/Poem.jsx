@@ -1,5 +1,6 @@
 import { React, useState } from 'react';
 import './Poem.css';
+import violet from './assets/violet.png'
 
 function Poem() {
     const [poem, setPoem] = useState(null);
@@ -27,9 +28,7 @@ function Poem() {
 
     return (
         <div className="poem-container">
-        <button onClick={fetchPoem} disabled={loading}>
-          {loading ? "Loading your poetic essence..." : "Find out"}
-        </button>
+        {!loading ? <button onClick={fetchPoem} disabled={loading}>Find out</button> : <img src={violet} className="quill" />}
       
         {revealPoem && poem && (
           <div className="contents">

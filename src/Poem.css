@@ -4,7 +4,7 @@ div {
 
 button {
     color: white;
-    background-color: orchid;
+    background-color: rgb(166, 105, 219);
     font-family: Garamond, serif;
 }
 
@@ -28,3 +28,13 @@ button {
     position: relative;
   }
   
+  .quill {
+    width: 120px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
