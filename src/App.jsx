@@ -6,7 +6,6 @@ function App() {
 
   return (
     <div className="all">
-      <BotanicalDrift />
       <div className="body">
         <h1 className="title">Which Emily Dickinson poem are you?</h1>
         <Poem />
