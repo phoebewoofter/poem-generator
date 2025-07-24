@@ -5,6 +5,7 @@ div {
 button {
     color: white;
     background-color: orchid;
+    font-family: Garamond, serif;
 }
 
 .poem-container {

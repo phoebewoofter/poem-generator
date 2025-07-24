@@ -19,4 +19,9 @@
 
 .title {
   text-align: center;
+  font-family: Garamond, serif;
+}
+
+.script {
+  font-family: "Lucida Handwriting", cursive;
 }
